@@ -24,16 +24,16 @@
   --section-title-color: var(--color-black);
 }
 
-html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-
 *,
 *::after,
 *::before {
   box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
