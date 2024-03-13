@@ -27,13 +27,12 @@
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  box-sizing: border-box;
 }
 
 body {
