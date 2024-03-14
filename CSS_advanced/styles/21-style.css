@@ -90,11 +90,6 @@ a:active {
   clear: both;
 }
 
-[class*="col"] {
-  float: left;
-  padding: 0.5rem;
-}
-
 .visually-hidden {
   display: none;
 }
@@ -188,6 +183,11 @@ ul.row {
 
 .col-1-2 {
   width: 50%;
+}
+
+[class*="col"] {
+  float: left;
+  padding: 0.5rem;
 }
 
 .footer-copyright {
