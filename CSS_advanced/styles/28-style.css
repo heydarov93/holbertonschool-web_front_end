@@ -45,6 +45,7 @@
   --button-hover-color: var(--color-white);
   --button-hover-text-decoration: none;
   --button-hover-background: var(--color-primary);
+
   --header-padding: 4rem 0 0;
   --header-logo-position: relative;
   --header-logo-link-display: inline-block;
@@ -161,7 +162,7 @@ a:active {
   position: var(--header-logo-position);
 }
 
-.header-logo a:link {
+.header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
